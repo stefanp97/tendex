@@ -1,5 +1,5 @@
 # frozen_string_literal: true
-
+ config.secret_key = 'ca7fd4db3662870e68f6ef7c63736c11d24f689792eeb75cf24a2ddb2b31a9030c266b10befeeb1643f9e26755778af394eba7798dc39ba110226cb9bb'
 # Use this hook to configure devise mailer, warden hooks and so forth.
 # Many of these configuration options can be set straight in your model.
 Devise.setup do |config|
@@ -280,5 +280,5 @@ Devise.setup do |config|
   # When using OmniAuth, Devise cannot automatically set OmniAuth path,
   # so you need to do it manually. For the users scope, it would be:
   # config.omniauth_path_prefix = '/my_engine/users/auth'
-  config.secret_key = Rails.application.credentials.secret_key_base
+config.secret_key = '5ed477a8b649220fb6565f08e35b80709e31ed71af0f4c1002a258d6e4821464e286ef0cd6422188c7d5f4ce20ca4d0543737b3b44b84c2d85ca90e814'
 end

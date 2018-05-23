@@ -13,3 +13,18 @@
  *= require devise_bootstrap_views
  */
 @import 'bootstrap';
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  .btn-primary:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+  }
+  a.navbar-brand {
+    @import url('https://fonts.googleapis.com/css?family=Signika:400,700');
+    font-family: 'Signika', sans-serif!important;
+    font-weight: 700;
+    font-size: 1.9em;
+  }
+}
